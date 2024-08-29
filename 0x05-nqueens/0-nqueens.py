@@ -47,7 +47,7 @@ def init():
 def n_queens():
 
     n = init()
-    # generate all solutions
+    # generate all soluions
     solutions = generate_solutions(n, n)
     # print solutions
     for array in solutions:
